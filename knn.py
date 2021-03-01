@@ -7,10 +7,9 @@ import array
 
 def veredict(i):
     switcher = {
-        1: "AB: Abnormal",
-        2: "NO: Normal",
-        3: "SL: Spondylolisthesis",
-        4: "DH: Disk hernia"
+        1: "NO: Normal",
+        2: "SL: Spondylolisthesis",
+        3: "DH: Disk hernia"
     }
     return switcher.get(i,"Not an option")
 
@@ -31,10 +30,9 @@ y = data[['class']]
 # map classes to numbers in order to get the model working properly
 #  DH (Disk Hernia) = 4, Spondylolisthesis (SL) = 3, Normal (NO)= 2 and Abnormal (AB)= 1.
 class_mapping ={
-    'DH': 4,
-    'SL': 3,
-    'NO': 2,
-    'AB': 1
+    'DH': 3,
+    'SL': 2,
+    'NO': 1
 }
 y['class'] = y['class'].map(class_mapping)
 y = np.array(y)
@@ -69,12 +67,12 @@ while again == "Y" or again == "y":
             print("Enter the value for ", features[i])
             arr[0][i] = float(input())
         print("Your values: ", arr)
-        newX = np.append(x,arr,axis=0)
-        pre = knn.predict(newX)[(len(x)-1)]
+        x = np.append(x,arr,axis=0)
+        pre = knn.predict(x)[(len(x)-1)]
         print("Predicted value for given input: \n" , pre)
         print("VEREDICT: ", veredict(pre))
     elif option == 2:
-        myRow = int(input("Insert a number for the row you want to compare (0-310): \n"))
+        myRow = int(input("Insert a number for the row you want to compare (0-309): \n"))
         print("Actual value: ", y[myRow])
         print("predicted value: ", knn.predict(x)[myRow])
         print(x[myRow])
