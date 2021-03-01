@@ -7,10 +7,10 @@ import array
 
 def veredict(i):
     switcher = {
-        1: 'AB: Abnormal',
-        2: 'NO: Normal',
-        3: 'SL: Spondylolisthesis',
-        4: 'DH: Disk hernia'
+        1: "AB: Abnormal",
+        2: "NO: Normal",
+        3: "SL: Spondylolisthesis",
+        4: "DH: Disk hernia"
     }
     return switcher.get(i,"Not an option")
 
@@ -25,6 +25,7 @@ x = data[[
     'g_spond'
 
 ]].values
+print(type(x))
 
 y = data[['class']]
 
@@ -38,6 +39,7 @@ class_mapping ={
 }
 y['class'] = y['class'].map(class_mapping)
 y = np.array(y)
+print("****************************************\n")
 
 print("p_in: Pelvic incidence is defined as the angle between a line perpendicular to the sacral plate at its midpoint and a line connecting this point to the femoral head axis.")
 
@@ -45,34 +47,37 @@ print("p_in: Pelvic incidence is defined as the angle between a line perpendicul
 knn = neighbors.KNeighborsClassifier(n_neighbors=25, weights='uniform')
 
 x_training, x_testing, y_training, y_testing = train_test_split(x,y,test_size= 0.2)
-knn.fit(x_training, y_training)
+knn.fit(x_training, y_training.ravel())
 
 prediction = knn.predict(x_testing)
 
 accuracy = metrics.accuracy_score(y_testing, prediction)
 
-print("prediction: ", prediction)
-print("accuracy: ", accuracy)
-
+print("Accuracy of the model: ", accuracy)
+print(x)
 
 again = "Y"
 while again == "Y" or again == "y":
-    option = int(input("Choose an option\n 1. Predict for input \n2. Compare prediction to actual value"))
+    option = int(input("Choose an option\n1. Predict for input \n2. Compare prediction to actual value\n"))
     if option == 1:
-        features = ["pelvic incidence", "pelvic tilt", "lumbar lordosis angle", "sacral slope" "pelvic radius","grade of spondylolisthesis"] 
-        arr = [None] * 6
+        features = ["pelvic incidence", "pelvic tilt", "lumbar lordosis angle", "sacral slope", "pelvic radius","grade of spondylolisthesis"] 
+        arr = [[None] * 6]
         for i in range(6):
-            arr[i] = float(input("Enter the value for ", features[i]))
+            print("Enter the value for ", features[i])
+            arr[0][i] = float(input())
         print("Your values: ", arr)
-        print("Predicted value for given input: \n" , knn.predict(arr))
+        newX = np.append(x,arr,axis=0)
+        print(newX)
+        pre = knn.predict(newX)[(len(x)-1)]
+        print("Predicted value for given input: \n" , pre)
+        print("VEREDICT: ", veredict(pre))
     elif option == 2:
-        myRow = int(input("Insert a number for the row you want to compare (0-310)"))
+        myRow = int(input("Insert a number for the row you want to compare (0-310): \n"))
         print("Actual value: ", y[myRow])
-        pre = knn.predict(x)[myRow]
-        print("predicted value: ", pre)
-        veredict(pre)
+        print("predicted value: ", knn.predict(x)[myRow])
+        print(x[myRow])
     else:
         print("Please choose a valid option")
     
-    again = input("Again?")
+    again = input("Again? (Y/N)")
 print("Thanks for using this predictor :)")
