@@ -3,7 +3,7 @@
 Is a supervised machine learning algorithm that can be used to solve both classification and regression problems. 
 The KNN algorithm assumes that similar things exist in close proximity. In other words, similar things are near to each other.
 
-![Example of KNN](../Assets/sk_knn.jpeg "Figure:1 Example of KNN")
+![Example of KNN](./Assets/sk_knn.jpeg "Figure:1 Example of KNN")
 
 ## Dataset used for this project
 
@@ -26,6 +26,6 @@ Spondylolisthesis is a spinal condition that affects the lower vertebrae (spinal
 #### What is normal?
 The value for the pelvic incidence was provided as normal between 43° and 62°. The normal range of value for the sacral slope was from −32° to −49°, from 3° to 18° for the pelvic tilting.
 
-![Pelvic Parameters](../Assets/pelvicParameters.jpeg)
+![Pelvic Parameters](./Assets/pelvicParameters.jpeg)
 
 ## References
