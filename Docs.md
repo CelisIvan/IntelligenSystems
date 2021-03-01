@@ -3,9 +3,7 @@
 Is a supervised machine learning algorithm that can be used to solve both classification and regression problems. 
 The KNN algorithm assumes that similar things exist in close proximity. In other words, similar things are near to each other.
 
-![Example of KNN](./Assets/sk_knn.jpeg)
-
-Figure 1: Example of KNN
+![Example of KNN](./Assets/sk_knn.png "Figure 1: Example of KNN")
 ## Dataset used for this project
 
 ### Pelvic Incidence:
