@@ -25,7 +25,6 @@ x = data[[
     'g_spond'
 
 ]].values
-print(type(x))
 
 y = data[['class']]
 
@@ -41,7 +40,12 @@ y['class'] = y['class'].map(class_mapping)
 y = np.array(y)
 print("****************************************\n")
 
-print("p_in: Pelvic incidence is defined as the angle between a line perpendicular to the sacral plate at its midpoint and a line connecting this point to the femoral head axis.")
+print("- p_in: Pelvic Incidence\n")
+print("- p_tilt: Pelvic tilt\n")
+print("- l_lor_a: Lumbar Lordosis Angle\n")
+print("- s_slope: Sacral slope\n")
+print("- p_radius: Pelvis Radius\n")
+print("- g_spond: Grade of Spondylolisthesis.\n")
 
 # create model
 knn = neighbors.KNeighborsClassifier(n_neighbors=25, weights='uniform')
@@ -54,7 +58,6 @@ prediction = knn.predict(x_testing)
 accuracy = metrics.accuracy_score(y_testing, prediction)
 
 print("Accuracy of the model: ", accuracy)
-print(x)
 
 again = "Y"
 while again == "Y" or again == "y":
@@ -67,7 +70,6 @@ while again == "Y" or again == "y":
             arr[0][i] = float(input())
         print("Your values: ", arr)
         newX = np.append(x,arr,axis=0)
-        print(newX)
         pre = knn.predict(newX)[(len(x)-1)]
         print("Predicted value for given input: \n" , pre)
         print("VEREDICT: ", veredict(pre))
