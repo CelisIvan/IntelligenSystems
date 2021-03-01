@@ -5,9 +5,7 @@ The KNN algorithm assumes that similar things exist in close proximity. In other
 
 ![Example of KNN](./Assets/sk_knn.jpeg)
 
-<p style="text-align: center;">
 Figure 1: Example of KNN
-</p>
 ## Dataset used for this project
 
 ### Pelvic Incidence:
