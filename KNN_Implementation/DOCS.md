@@ -5,7 +5,7 @@ Is a supervised machine learning algorithm that can be used to solve both classi
 The KNN algorithm assumes that similar things exist in close proximity. In other words, similar things are near to each other. For this algorithm, a point in space is assigned to class C, if this is the most frequent class among the k closest elements.
 
 To get the distance for the neighbours the **euclidean distance formula** which states:
-![Euclidean Formula](../Assets/euclidian.png "Figure 1: Euclidean distance formula")
+![Euclidean Formula](euclidian.png "Figure 1: Euclidean distance formula")
 
 Where _n_ represents the dimensions of our model. 
 
