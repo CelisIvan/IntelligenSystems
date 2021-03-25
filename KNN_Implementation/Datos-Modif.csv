@@ -1,4 +1,4 @@
-,customerEmail,customerName,orderTotal,c_percentile,rank
+,customerEmail,customerName,orderTotal,c_percent,rank
 1,mail@mail.com,Some_name,226.9,0.616666666666667,Sin Rank
 2,mail@mail.com,Some_name,241.5,0.675,Sin Rank
 3,mail@mail.com,Some_name,143.4,0.3125,Sin Rank
