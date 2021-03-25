@@ -1,0 +1,121 @@
+,customerEmail,customerName,orderTotal,c_percentile,rank
+1,mail@mail.com,Some_name,226.9,0.616666666666667,Sin Rank
+2,mail@mail.com,Some_name,241.5,0.675,Sin Rank
+3,mail@mail.com,Some_name,143.4,0.3125,Sin Rank
+4,mail@mail.com,Some_name,521.8,0.916666666666667,Oro
+5,mail@mail.com,Some_name,176,0.483333333333333,Sin Rank
+6,mail@mail.com,Some_name,607.4,0.958333333333333,Platino
+7,mail@mail.com,Some_name,78,0.104166666666667,Sin Rank
+8,mail@mail.com,Some_name,148,0.370833333333333,Sin Rank
+9,mail@mail.com,Some_name,179,0.504166666666667,Sin Rank
+10,mail@mail.com,Some_name,288.2,0.775,Sin Rank
+11,mail@mail.com,Some_name,206.6,0.583333333333333,Sin Rank
+12,mail@mail.com,Some_name,147.9,0.354166666666667,Sin Rank
+13,mail@mail.com,Some_name,112.3,0.233333333333333,Sin Rank
+14,mail@mail.com,Some_name,610,0.966666666666667,Platino
+15,mail@mail.com,Some_name,173,0.441666666666667,Sin Rank
+16,mail@mail.com,Some_name,94.3,0.166666666666667,Sin Rank
+17,mail@mail.com,Some_name,175,0.458333333333333,Sin Rank
+18,mail@mail.com,Some_name,70.3,0.045833333333333,Sin Rank
+19,mail@mail.com,Some_name,228.4,0.633333333333333,Sin Rank
+20,mail@mail.com,Some_name,258,0.716666666666667,Sin Rank
+21,mail@mail.com,Some_name,189,0.541666666666667,Sin Rank
+22,mail@mail.com,Some_name,854.6,0.983333333333333,Diamante
+23,mail@mail.com,Some_name,128,0.283333333333333,Sin Rank
+24,mail@mail.com,Some_name,205.4,0.575,Sin Rank
+25,mail@mail.com,Some_name,246,0.683333333333333,Sin Rank
+26,mail@mail.com,Some_name,383.2,0.866666666666667,Plata
+27,mail@mail.com,Some_name,175.4,0.466666666666667,Sin Rank
+28,mail@mail.com,Some_name,120,0.258333333333333,Sin Rank
+29,mail@mail.com,Some_name,69,0.025,Sin Rank
+30,mail@mail.com,Some_name,1467.4,1,Diamante
+31,mail@mail.com,Some_name,105.3,0.208333333333333,Sin Rank
+32,mail@mail.com,Some_name,233.2,0.658333333333333,Sin Rank
+33,mail@mail.com,Some_name,412.4,0.883333333333333,Plata
+34,mail@mail.com,Some_name,119.8,0.25,Sin Rank
+35,mail@mail.com,Some_name,282.6,0.766666666666667,Sin Rank
+36,mail@mail.com,Some_name,160.3,0.433333333333333,Sin Rank
+37,mail@mail.com,Some_name,137,0.291666666666667,Sin Rank
+38,mail@mail.com,Some_name,124,0.275,Sin Rank
+39,mail@mail.com,Some_name,104.6,0.183333333333333,Sin Rank
+40,mail@mail.com,Some_name,105.3,0.208333333333333,Sin Rank
+41,mail@mail.com,Some_name,227.5,0.625,Sin Rank
+42,mail@mail.com,Some_name,78,0.104166666666667,Sin Rank
+43,mail@mail.com,Some_name,153,0.383333333333333,Sin Rank
+44,mail@mail.com,Some_name,77.3,0.079166666666667,Sin Rank
+45,mail@mail.com,Some_name,264.9,0.725,Sin Rank
+46,mail@mail.com,Some_name,148,0.370833333333333,Sin Rank
+47,mail@mail.com,Some_name,154.4,0.391666666666667,Sin Rank
+48,mail@mail.com,Some_name,188.6,0.533333333333333,Sin Rank
+49,mail@mail.com,Some_name,176,0.483333333333333,Sin Rank
+50,mail@mail.com,Some_name,310.6,0.825,Bronce
+51,mail@mail.com,Some_name,408.5,0.875,Plata
+52,mail@mail.com,Some_name,77.3,0.079166666666667,Sin Rank
+53,mail@mail.com,Some_name,87.1,0.133333333333333,Sin Rank
+54,mail@mail.com,Some_name,266.8,0.733333333333333,Sin Rank
+55,mail@mail.com,Some_name,173.2,0.45,Sin Rank
+56,mail@mail.com,Some_name,341,0.858333333333333,Plata
+57,mail@mail.com,Some_name,907,0.991666666666667,Diamante
+58,mail@mail.com,Some_name,209.6,0.604166666666667,Sin Rank
+59,mail@mail.com,Some_name,304.69,0.8,Sin Rank
+60,mail@mail.com,Some_name,87.1,0.133333333333333,Sin Rank
+61,mail@mail.com,Some_name,70.3,0.045833333333333,Sin Rank
+62,mail@mail.com,Some_name,252.19,0.7,Sin Rank
+63,mail@mail.com,Some_name,280.2,0.745833333333333,Sin Rank
+64,mail@mail.com,Some_name,155,0.408333333333333,Sin Rank
+65,mail@mail.com,Some_name,139.3,0.3,Sin Rank
+66,mail@mail.com,Some_name,116.5,0.241666666666667,Sin Rank
+67,mail@mail.com,Some_name,522.4,0.925,Oro
+68,mail@mail.com,Some_name,179.4,0.516666666666667,Sin Rank
+69,mail@mail.com,Some_name,528.5,0.933333333333333,Oro
+70,mail@mail.com,Some_name,155,0.408333333333333,Sin Rank
+71,mail@mail.com,Some_name,325,0.841666666666667,Bronce
+72,mail@mail.com,Some_name,176,0.483333333333333,Sin Rank
+73,mail@mail.com,Some_name,533.8,0.95,Oro
+74,mail@mail.com,Some_name,53.5,0.008333333333333,Sin Rank
+75,mail@mail.com,Some_name,91.3,0.154166666666667,Sin Rank
+76,mail@mail.com,Some_name,91.3,0.154166666666667,Sin Rank
+77,mail@mail.com,Some_name,296,0.783333333333333,Sin Rank
+78,mail@mail.com,Some_name,144.5,0.325,Sin Rank
+79,mail@mail.com,Some_name,99,0.175,Sin Rank
+80,mail@mail.com,Some_name,238.9,0.666666666666667,Sin Rank
+81,mail@mail.com,Some_name,228.5,0.641666666666667,Sin Rank
+82,mail@mail.com,Some_name,529,0.941666666666667,Oro
+83,mail@mail.com,Some_name,202.8,0.566666666666667,Sin Rank
+84,mail@mail.com,Some_name,70.3,0.045833333333333,Sin Rank
+85,mail@mail.com,Some_name,105.3,0.208333333333333,Sin Rank
+86,mail@mail.com,Some_name,86,0.116666666666667,Sin Rank
+87,mail@mail.com,Some_name,60.5,0.016666666666667,Sin Rank
+88,mail@mail.com,Some_name,77.3,0.079166666666667,Sin Rank
+89,mail@mail.com,Some_name,157,0.425,Sin Rank
+90,mail@mail.com,Some_name,335.7,0.85,Bronce
+91,mail@mail.com,Some_name,208.2,0.591666666666667,Sin Rank
+92,mail@mail.com,Some_name,256,0.708333333333333,Sin Rank
+93,mail@mail.com,Some_name,230,0.65,Sin Rank
+94,mail@mail.com,Some_name,299,0.791666666666667,Sin Rank
+95,mail@mail.com,Some_name,122.3,0.266666666666667,Sin Rank
+96,mail@mail.com,Some_name,247.9,0.691666666666667,Sin Rank
+97,mail@mail.com,Some_name,430.9,0.9,Plata
+98,mail@mail.com,Some_name,143.4,0.3125,Sin Rank
+99,mail@mail.com,Some_name,419.4,0.891666666666667,Plata
+100,mail@mail.com,Some_name,87.1,0.133333333333333,Sin Rank
+101,mail@mail.com,Some_name,146.5,0.3375,Sin Rank
+102,mail@mail.com,Some_name,307,0.808333333333333,Bronce
+103,mail@mail.com,Some_name,720,0.975,Platino
+104,mail@mail.com,Some_name,192.2,0.55,Sin Rank
+105,mail@mail.com,Some_name,470.5,0.908333333333333,Oro
+106,mail@mail.com,Some_name,179.6,0.525,Sin Rank
+107,mail@mail.com,Some_name,70.3,0.045833333333333,Sin Rank
+108,mail@mail.com,Some_name,192.6,0.558333333333333,Sin Rank
+109,mail@mail.com,Some_name,309,0.816666666666667,Bronce
+110,mail@mail.com,Some_name,147.9,0.354166666666667,Sin Rank
+111,mail@mail.com,Some_name,280.2,0.745833333333333,Sin Rank
+112,mail@mail.com,Some_name,179,0.504166666666667,Sin Rank
+113,mail@mail.com,Some_name,209.6,0.604166666666667,Sin Rank
+114,mail@mail.com,Some_name,321,0.833333333333333,Bronce
+115,mail@mail.com,Some_name,105.3,0.208333333333333,Sin Rank
+116,mail@mail.com,Some_name,146.5,0.3375,Sin Rank
+117,mail@mail.com,Some_name,281,0.758333333333333,Sin Rank
+118,mail@mail.com,Some_name,105.3,0.208333333333333,Sin Rank
+119,mail@mail.com,Some_name,77.3,0.079166666666667,Sin Rank
+120,mail@mail.com,Some_name,155,0.408333333333333,Sin Rank
